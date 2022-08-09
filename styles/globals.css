@@ -1,0 +1,98 @@
+@import "hero-animation-style.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: YouTubeSans;
+  src: url(../assets/fonts/YouTubeSansDarkLight.otf) format("opentype");
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: YouTubeSans;
+  src: url(../assets/fonts/YouTubeSansMedium.otf) format("opentype");
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: YouTubeSans;
+  src: url(../assets/fonts/YouTubeSansRegular.otf) format("opentype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: YouTubeSans;
+  src: url(../assets/fonts/YouTubeSansSemibold.otf) format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: YouTubeSans;
+  src: url(../assets/fonts/YouTubeSansDarkBold.otf) format("opentype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: YouTubeSans;
+  src: url(../assets/fonts/YouTubeSansBold.otf) format("opentype");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: YouTubeSans;
+  src: url(../assets/fonts/YouTubeSansDarkExtrabold.otf) format("opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: YouTubeSans;
+  src: url(../assets/fonts/YouTubeSansExtrabold.otf) format("opentype");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: YouTubeSans;
+  src: url(../assets/fonts/YouTubeSansDarkBlack.otf) format("opentype");
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* YouTubeSansDarkLight.otf
+YouTubeSansDarkMedium.otf
+YouTubeSansDarkRegular.otf
+YouTubeSansDarkSemibold.otf
+YouTubeSansExtrabold.otf */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: YouTubeSans, monospace, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+* {
+  font-family: YouTubeSans, monospace, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
